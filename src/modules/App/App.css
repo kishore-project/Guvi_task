@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('./image.jpg') no-repeat fixed;
+    background-size: cover;
+    font-family: 'Indie Flower', cursive;
+}
+
+#desi-crav {
+    font-size: 3.3rem;
+    padding-left: 25px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.App {
+    text-align: center;
+}
+
+.button-separate {
+    background: none;
+    margin: 5px !important;
+}
+
+.button-logout {
+    width: 50%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-logout:hover {
+    background-color: #0056b3;
+}
+
+.btn-toolbar > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar {
+    border: none;
+    background-color: transparent;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5rem;
+}
+
+.App-intro {
+    font-size: large;
+    color: #333;
+}
+
+.nav-buttons {
+    padding: 10px;
+}
+
+.btn-toolbar {
+    width: 16em;
+    color: #07bc0c;
+}
+
+.toastify-content--success .toastify__body {
+    background: #07bc0c;
+}
+
+.toastify-content--error .toastify__body {
+    background: #e74c3c;
+}
+
+@media screen and (max-width: 500px) {
+    .btn-toolbar > div {
+        justify-content: space-around;
+    }
+
+    .navbar-right {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .btn-toolbar {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
